@@ -211,7 +211,7 @@ a.btn.active {
 
   .dropdown-toggle::after {
     border: none;
-    background-image: url(/img/arrow_down.svg);
+    background-image: url("../img/arrow_down.svg");
     background-position: center right;
     background-size: 10px 6px;
     background-repeat: no-repeat;
@@ -276,14 +276,14 @@ a.btn.active {
       color: var(--accent-text);
       font-size: 16px;
       line-height: 21px;
-      background-image: url("/img/plus_grey.svg");
+      background-image: url("../img/plus_grey.svg");
       background-size: 20px;
       background-position: center left 22px;
       background-repeat: no-repeat;
     }
 
     .btn:not(.collapsed) {
-      background-image: url("/img/plus_green.svg");
+      background-image: url("../img/plus_green.svg");
     }
 
     .btn-link:focus {
@@ -344,7 +344,7 @@ a.btn.active {
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url("/img/img_block_shadow.png");
+    background-image: url("../img/img_block_shadow.png");
     background-position: center right;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -438,7 +438,7 @@ a.btn.active {
   }
 
   .header_contact-language .dropdown-toggle {
-    background-image: url(/img/language.svg);
+    background-image: url("../img/language.svg");
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 13px;
@@ -451,7 +451,7 @@ a.btn.active {
 
   .header_contact-language a:hover,
   .header_contact-language a:focus {
-    background-image: url(/img/language_green.svg);
+    background-image: url("../img/language_green.svg");
   }
 
   .header_contact-language a.dropdown-item {
@@ -492,7 +492,7 @@ a.logo {
 }
 
 .navbar-toggler-icon {
-  background-image: url("/img/burger.svg");
+  background-image: url("../img/burger.svg");
 }
 
 .main-page_navbar .navbar-nav a.nav-link {
@@ -522,7 +522,7 @@ a.logo {
 }
 
 .main-page_navbar .navbar-toggler-icon {
-  background-image: url("/img/burger.svg");
+  background-image: url("../img/burger.svg");
 }
 
 
@@ -837,10 +837,10 @@ a.logo {
   margin-bottom: 8px;
 
   &--manager .variability-item-content {
-    background-image: url("/img/shirt.svg");
+    background-image: url("../img/shirt.svg");
   }
   &--teacher .variability-item-content {
-    background-image: url("/img/bezier-curve.svg");
+    background-image: url("../img/bezier-curve.svg");
   }
 }
 
@@ -1110,31 +1110,31 @@ a.logo {
   }
 
   &--instagram a {
-    background-image: url("/img/instagram_icon.svg");
+    background-image: url("../img/instagram_icon.svg");
   }
 
   &--linkedin a {
-    background-image: url("/img/linkedin_icon.svg");
+    background-image: url("../img/linkedin_icon.svg");
   }
   
   &--facebook a {
     background-size: 8px;
-    background-image: url("/img/facebook_icon.svg");
+    background-image: url("../img/facebook_icon.svg");
   }
 
   &--instagram a:hover,
   &--instagram a:focus {
-    background-image: url("/img/instagram_icon_active.svg");
+    background-image: url("../img/instagram_icon_active.svg");
   }
 
   &--linkedin a:hover,
   &--linkedin a:focus {
-    background-image: url("/img/linkedin_icon_active.svg");
+    background-image: url("../img/linkedin_icon_active.svg");
   }
   
   &--facebook a:hover, 
   &--facebook a:focus {
-    background-image: url("/img/facebook_icon_active.svg");
+    background-image: url("../img/facebook_icon_active.svg");
   }
 }
 
