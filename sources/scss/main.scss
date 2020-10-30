@@ -527,9 +527,10 @@ a.logo {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
-	-webkit-transform-origin: 7% 10%;
-	-ms-transform-origin: 7% 10%;;
-  transform-origin: 7% 10%;
+	-webkit-transform-origin: 10% 10%;
+	-ms-transform-origin: 10% 10%;;
+  transform-origin: 10% 10%;
+  width: 20px;
 }
 
 .navbar-toggler.x .icon-bar:nth-of-type(2) {
@@ -542,15 +543,17 @@ a.logo {
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-	-webkit-transform-origin: 0% 90%;
-	-ms-transform-origin: 0% 90%;
-	transform-origin: 0% 90%;
+	-webkit-transform-origin: 10% 90%;
+	-ms-transform-origin: 10% 90%;
+  transform-origin: 10% 90%;
+  width: 20px;
 }
 
 .navbar-toggler.x.collapsed .icon-bar:nth-of-type(1) {
 	-webkit-transform: rotate(0);
 	-ms-transform: rotate(0);
-	transform: rotate(0);
+  transform: rotate(0);
+  width: 16px;
 }
 
 .navbar-toggler.x.collapsed .icon-bar:nth-of-type(2) {
@@ -561,7 +564,8 @@ a.logo {
 .navbar-toggler.x.collapsed .icon-bar:nth-of-type(3) {
 	-webkit-transform: rotate(0);
 	-ms-transform: rotate(0);
-	transform: rotate(0);
+  transform: rotate(0);
+  width: 16px;
 }
 
 .main-page_navbar .navbar-nav a.nav-link {
