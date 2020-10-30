@@ -498,7 +498,6 @@ a.logo {
 .navbar-toggler {
   position: relative;
   float: right;
-  margin-right: 15px;
   padding: 9px 10px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -528,9 +527,9 @@ a.logo {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
-	-webkit-transform-origin: 5% 10%;
-	-ms-transform-origin: 5% 10%;;
-  transform-origin: 5% 10%;
+	-webkit-transform-origin: 7% 10%;
+	-ms-transform-origin: 7% 10%;;
+  transform-origin: 7% 10%;
 }
 
 .navbar-toggler.x .icon-bar:nth-of-type(2) {
@@ -544,7 +543,7 @@ a.logo {
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	-webkit-transform-origin: 0% 90%;
-	-ms-transform-origin: 00% 90%;
+	-ms-transform-origin: 0% 90%;
 	transform-origin: 0% 90%;
 }
 
