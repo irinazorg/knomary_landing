@@ -543,11 +543,11 @@ a.logo {
   }
 
   .main-page_navbar .navbar-collapse {
-    min-height: calc(100% - 127px);
+    min-height: calc(100vh - 96px);
   }
 
   .main-page_navbar .navbar-nav {
-    min-height: calc(100vh - 127px);
+    min-height: calc(100vh - 96px);
   }
 
   .main-page_navbar .header_contact-phone {
@@ -590,19 +590,23 @@ a.logo {
 }
 
 @media (max-width: 575.98px) {
+  .main-page_navbar .navbar-collapse {
+    min-height: calc(100vh - 54px);
+  }
+
   .main-page_navbar .navbar-nav {
     min-height: calc(100vh - 54px);
   }
 
-  .main-page_navbar.navbar {
-    position: fixed;
-    background-color: #fff;
-    top: 0;
-    left: 0;
-    right: 0;
-    // bottom: 0;
-    z-index: 999;
-  }
+  // .main-page_navbar.navbar {
+  //   position: fixed;
+  //   background-color: #fff;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   // bottom: 0;
+  //   z-index: 999;
+  // }
 
   .main-page_navbar .navbar-nav {
     background-color: #fff;
