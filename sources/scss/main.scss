@@ -542,9 +542,9 @@ a.logo {
     margin: 2px 0;
   }
 
-  .main-page_navbar .navbar-collapse {
-    min-height: calc(100vh - 96px);
-  }
+  // .main-page_navbar .navbar-collapse {
+  //   min-height: calc(100vh - 96px);
+  // }
 
   .main-page_navbar .navbar-nav {
     min-height: calc(100vh - 96px);
@@ -552,7 +552,6 @@ a.logo {
 
   .main-page_navbar .header_contact-phone {
     margin-top: auto;
-    // position: absolute;
     bottom: 65px;
     width: 100%;
   }
@@ -590,23 +589,23 @@ a.logo {
 }
 
 @media (max-width: 575.98px) {
-  .main-page_navbar .navbar-collapse {
-    min-height: calc(100vh - 96px);
-  }
+  // .main-page_navbar .navbar-collapse {
+  //   min-height: calc(100vh - 106px);
+  // }
 
   .main-page_navbar .navbar-nav {
-    min-height: calc(100vh - 96px);
+    min-height: calc(100vh - 106px);
   }
 
-  // .main-page_navbar.navbar {
-  //   position: fixed;
-  //   background-color: #fff;
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
-  //   // bottom: 0;
-  //   z-index: 999;
-  // }
+  .main-page_navbar.navbar {
+    // position: fixed;
+    background-color: #fff;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    z-index: 999;
+  }
 
   .main-page_navbar .navbar-nav {
     background-color: #fff;
