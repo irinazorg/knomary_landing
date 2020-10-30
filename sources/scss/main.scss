@@ -543,7 +543,7 @@ a.logo {
   }
 
   .main-page_navbar .navbar-collapse {
-    min-height: 100%;
+    min-height: calc(100% - 60px);
   }
 
   .main-page_navbar .navbar-nav {
@@ -552,6 +552,8 @@ a.logo {
 
   .main-page_navbar .header_contact-phone {
     margin-top: auto;
+    position: absolute;
+    bottom: 25px;
   }
 
   .main-page_navbar .header_contact-phone a.nav-link {
@@ -597,6 +599,7 @@ a.logo {
     top: 0;
     left: 0;
     right: 0;
+    // bottom: 0;
     z-index: 999;
   }
 
