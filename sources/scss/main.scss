@@ -234,6 +234,7 @@ a.btn.active {
 
 // Label
 .label-primary {
+  height: 30px;
   background-color: var(--primary);
   border-radius: 4px;
   font-weight: 500;
@@ -242,9 +243,9 @@ a.btn.active {
   text-align: center;
   vertical-align: middle;
   border: 1px solid var(--primary);
-  padding: 10px 24px;
-  font-size: 16px;
-  line-height: 16px;
+  padding: 0 24px;
+  font-size: 12px;
+  line-height: 29px;
   text-transform: uppercase;
 }
 
@@ -737,6 +738,16 @@ a.logo {
 .contact-form  input {
   width: 320px;
   min-width: 320px;
+  height: 48px;
+  font-size: 16px;
+}
+
+.contact-form .btn {
+  height: 48px;
+}
+
+::placeholder {
+  color: #697787;
 }
 
 @media (max-width: 575.98px) {
@@ -757,6 +768,11 @@ a.logo {
       width: 100%;
     }
   }
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+  line-height: 34px;
+  color: #697787;
 }
 
 .wrap-label {
@@ -886,6 +902,27 @@ a.logo {
 }
 
 // variability section
+// @media (min-width: 992px) {
+//   .variability {
+//     position: relative;
+  
+//     &::before {
+//       content: "";
+//       position: absolute;
+//       background-image: url(../img/ellipse.svg);
+//       background-position: top 50px right 45px;
+//       background-repeat: no-repeat;
+//       background-size: 642px;
+//       width: 742px;
+//       height: 742px;
+//       top: -120px;
+//       right: 10%;
+//       z-index: -5;
+//       opacity: 0.75;
+//     }
+//   }
+// }
+
 .variability h2 {
   max-width: 720px;
   margin-bottom: 88px;
@@ -1011,8 +1048,8 @@ a.logo {
 }
 
 .review-avatar-wrap {
-  width: 40px;
-  height: 40px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
@@ -1046,7 +1083,7 @@ a.logo {
 
 // offer 
 .offer {
-  margin-bottom: 160px;
+  margin-bottom: 80px;
 }
 
 .offer-img-wrap {
@@ -1098,6 +1135,29 @@ a.logo {
     }
   }
 }
+
+// @media (min-width: 1200px) {
+//   .products {
+//     position: relative; 
+//     overflow: hidden;
+//     padding-top: 80px;
+
+//     &::before {
+//       content: "";
+//       position: absolute;
+//       background-image: url(../img/ellipse.svg);
+//       background-position: center;
+//       background-repeat: no-repeat;
+//       background-size: 722px;
+//       width: 822px;
+//       height: 822px;
+//       top: 8px;
+//       right: 5%;
+//       z-index: -5;
+//       opacity: 0.75;
+//     }
+//   }
+// }
 
 @media (max-width: 991.98px) {
   .product-img-wrap {
