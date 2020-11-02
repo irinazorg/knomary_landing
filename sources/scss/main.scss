@@ -113,6 +113,11 @@ a.btn.active {
   color: #fff !important;
 }
 
+.btn {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 // components
 .h-lg {
   font-size: 64px;
@@ -1053,7 +1058,7 @@ a.logo {
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 
   img{
     height: 100%;
