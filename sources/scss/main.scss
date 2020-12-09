@@ -1295,3 +1295,60 @@ a.logo {
     margin-top: 25px;
   }
 }
+
+// create section
+.create  {
+  margin-bottom: 127px;
+
+  .img-block {
+    padding: 56px;
+    background-image: url("../img/ellipse.svg");
+    background-repeat: no-repeat;
+    background-position: top 100px left;
+    background-size: 550px;
+  }
+  
+  .h-sm {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: bold;
+    max-width: 800px;
+    margin-bottom: 48px;
+  }
+
+  .create-img-wrap img {
+    border-radius: 6px;
+    box-shadow: rgba(155, 155, 155, .2) 0px 0px 5px;
+  }
+}
+
+.create-item {
+  padding: 12px 40px 12px 42px;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  h3 {
+    display: inline-block;
+    padding-left: 16px;
+    position: relative;
+    font-size: 18px;
+    line-height: 32px;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--primary);
+      left: 0;
+      top: 13px;
+    }
+  }
+
+  p {
+    color: var(--accent-text);
+  }
+}
